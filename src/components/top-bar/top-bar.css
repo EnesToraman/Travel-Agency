@@ -1,0 +1,14 @@
+.topbar {
+    height: 7vh;
+    background-color: darkblue;
+    color: white;
+}
+
+.plane-logo {
+    color: white;
+    margin-right: 10px;
+}
+
+.text {
+    line-height: 7vh;
+}

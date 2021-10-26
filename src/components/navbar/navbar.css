@@ -1,0 +1,59 @@
+.background-image-div {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+}
+
+.background-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.toolbar {
+    color: white;
+    align-items: flex-start !important;
+    margin-top: 5vh;
+}
+
+.grid {
+    padding-bottom: 3vh;
+    border-bottom: solid 1px white;
+}
+
+.logo {
+    color: white;
+    padding-right: 15px;
+}
+
+.caret-down {
+    padding-left: 8px;
+}
+
+.menu-element {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.company-name {
+    font-weight: bold !important;
+    font-style: italic;
+
+}
+
+.search-icon {
+    margin-right: 4px;
+}
+
+.menu-right {
+    justify-content: flex-end;
+}
+
+.motto {
+    color:white;
+    justify-content: center;
+    transform: translateY(-50%);
+    margin-top: 25vh;
+}
