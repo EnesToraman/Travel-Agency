@@ -1,0 +1,30 @@
+.information-area {
+    align-self: center;
+}
+
+.information-title {
+    font-size: 55px;
+    text-align: left;
+}
+
+.information-list {
+    text-align: left;
+    font-size: 20px;
+}
+
+.information-list li {
+    margin-bottom: 2vh;
+}
+
+.information-list ul {
+    padding-left: 20px;
+}
+
+.expert-photo {
+    margin: 5px 10px;
+}
+
+.expert-photo img {
+    width: 110%;
+    height: 100%;
+}
