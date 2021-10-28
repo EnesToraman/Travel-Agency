@@ -5,13 +5,11 @@ import { faStaylinked } from '@fortawesome/free-brands-svg-icons';
 import Typography from '@mui/material/Typography';
 import { IconButton, Button, Grid } from '@mui/material';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Container } from '@mui/material';
-import mountains from '../../images/mountains.jpg'
-import lake from '../../images/lake.jpg'
-import budapest from '../../images/budapest.jpg'
-import { Card } from '@mui/material';
+import lake from '../../images/lake.jpg';
 
 import './navbar.css'
 
@@ -79,18 +77,31 @@ const Navbar = () => {
                                 <Grid className="menu-element" item md={2} lg={2} >
                                     Cities
                                     <FontAwesomeIcon className="caret-down" icon={faCaretDown} />
+                                    <div className="cities">
+                                        <FontAwesomeIcon className="caret-up" size="2x" icon={faCaretUp} />
+                                        <Cities />
+                                    </div>
                                 </Grid>
                                 <Grid className="menu-element" item md={2} lg={2}>
                                     Interests
                                     <FontAwesomeIcon className="caret-down" icon={faCaretDown} />
+                                    <div className="interests">
+                                        <FontAwesomeIcon className="caret-up" size="2x" icon={faCaretUp} />
+                                        <Interests />
+                                    </div>
                                 </Grid>
                                 <Grid className="menu-element" item md={4} lg={4}>
                                     Context Learning
                                     <FontAwesomeIcon className="caret-down" icon={faCaretDown} />
+                                    <div className="context-learning">
+                                        <FontAwesomeIcon className="caret-up" size="2x" icon={faCaretUp} />
+                                        <ContextLearning />
+                                    </div>
                                 </Grid>
                             </Grid>
                             <Grid container className="menu-right" md={6} lg={6}>
                                 <Grid className="menu-element" item md={2} lg={2} >
+                                    <input className="search-bar" placeholder="Search for city, tour name, etc."/>
                                     <FontAwesomeIcon className="search-icon" icon={faSearch} />
                                     Search
                                 </Grid>
@@ -116,3 +127,87 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+const Cities = () => {
+    return (
+        <Container>
+            <Grid container>
+                <Grid xs={12}>
+                    Amsterdam
+                </Grid>
+                <Grid xs={12}>
+                    İstanbul
+                </Grid>
+                <Grid xs={12}>
+                    Ljubljana
+                </Grid>
+                <Grid xs={12}>
+                    Barcelona
+                </Grid>
+                <Grid xs={12}>
+                    İstanbul
+                </Grid>
+                <Grid xs={12}>
+                    Ljubljana
+                </Grid>
+                <Grid xs={12}>
+                    Barcelona
+                </Grid>
+                <Grid xs={12}>
+                    İstanbul
+                </Grid>
+                <Grid xs={12}>
+                    Ljubljana
+                </Grid>
+                <Grid xs={12}>
+                    Barcelona
+                </Grid>
+            </Grid>
+        </Container>
+    );
+}
+
+const Interests = () => {
+    return (
+        <Container>
+            <Grid container>
+                <Grid xs={12}>
+                    Full Day Private Tours
+                </Grid>
+                <Grid xs={12}>
+                    Colosseum
+                </Grid>
+                <Grid xs={12}>
+                    Art and Museums
+                </Grid>
+                <Grid xs={12}>
+                    Cuisine
+                </Grid>
+                <Grid xs={12}>
+                    History
+                </Grid>
+                <Grid xs={12}>
+                    Orientation
+                </Grid>
+            </Grid>
+        </Container>
+    );
+}
+
+const ContextLearning = () => {
+    return (
+        <Container>
+            <Grid container>
+                <Grid xs={12}>
+                    Upcoming Seminars
+                </Grid>
+                <Grid xs={12}>
+                    Upcoming Courses
+                </Grid>
+                <Grid xs={12}>
+                    Virtual Tours
+                </Grid>
+            </Grid>
+        </Container>
+    );
+}

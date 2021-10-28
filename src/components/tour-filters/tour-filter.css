@@ -1,0 +1,59 @@
+.filter-bar {
+    justify-content: center;
+    margin-bottom: 10vh;
+    position: relative;
+    top: -10vh;
+}
+
+.filter-element {
+    display: flex;
+    height: 15vh;
+    border: solid 1px lightgray;
+    border-left: none;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(177, 176, 176, 0.2);
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.filter-element:first-child {
+    border-left: solid 1px lightgray;
+}
+
+.filter-element:last-child {
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+    font-size: 14px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-element-picker {
+    position: relative;
+    font-size: 21px;
+}
+
+.filter-element-label {
+    font-family:sans-serif;
+    font-size: 12px;
+    padding-bottom: 2vh;
+}
+
+.participant-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.date-picker {
+    padding: 0 20px;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+}
+

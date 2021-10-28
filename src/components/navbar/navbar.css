@@ -35,6 +35,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .company-name {
@@ -56,4 +57,93 @@
     justify-content: center;
     transform: translateY(-50%);
     margin-top: 25vh;
+}
+
+.cities {
+    position: absolute;
+    top: 46px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(177, 176, 176, 0.2);
+    width: 150px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+    z-index: 99;
+}
+
+.interests {
+    position: absolute;
+    top: 46px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(177, 176, 176, 0.2);
+    width: 200px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+    z-index: 99;
+}
+
+.context-learning {
+    position: absolute;
+    top: 46px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(177, 176, 176, 0.2);
+    width: 200px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+    z-index: 99;
+}
+
+
+.menu-element:hover .cities {
+    display: block;
+}
+
+.menu-element:hover .interests {
+    display: block;
+}
+
+.menu-element:hover .context-learning {
+    display: block;
+}
+
+.caret-up {
+    position: absolute;
+    top: -21px;
+    left: 65px;
+    color: white
+}
+
+.context-learning .caret-up {
+    left: 85px;
+}
+
+.interests .caret-up {
+    left: 90px;
+}
+
+.search-bar {
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    left: 75vh;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 50px 0 rgba(177, 176, 176, 0.8);
+    display: none;
+}
+
+.search-bar::placeholder {
+    padding-left: 10px;
+}
+
+.menu-element:focus .search-bar {
+    display: inline-block;
 }
