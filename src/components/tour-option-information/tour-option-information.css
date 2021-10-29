@@ -1,0 +1,40 @@
+.tour-option-information {
+    margin-top: 10vh;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    background-color: white;
+}
+
+.tour-option-image img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-option-image:last-child {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 6vh;
+}
+
+.tour-information-area {
+    align-self: center;
+    margin-right: 0px;
+}
+
+.tour-information-title {
+    font-size: 55px;
+    text-align: left;
+}
+
+.tour-information-list {
+    text-align: left;
+    font-size: 20px;
+}
+
+.tour-information-list li {
+    margin-bottom: 2vh;
+}
+
+.tour-information-list ul {
+    padding-left: 30px;
+}

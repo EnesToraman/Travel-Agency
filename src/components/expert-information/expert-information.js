@@ -12,7 +12,7 @@ const ExpertInformation = () => {
     return (
         <Container>
             <Grid container>
-                <Grid lg={6} className="information-area">
+                <Grid lg={4} className="information-area">
                     <Grid className="information-title" lg={12}>
                         Learn with Top Experts All Over the Globe
                     </Grid>
@@ -24,7 +24,7 @@ const ExpertInformation = () => {
                         </ul>
                     </Grid>
                 </Grid>
-                <Grid container lg={6}>
+                <Grid container lg={8} className="information-area-images">
                     <Grid xs={3} lg={3} className="expert-photo">
                         <img
                             src={expertphoto1}

@@ -1,5 +1,6 @@
 .information-area {
     align-self: center;
+    margin-right: 0px;
 }
 
 .information-title {
@@ -21,7 +22,11 @@
 }
 
 .expert-photo {
-    margin: 5px 10px;
+    margin: 8px 15px;
+}
+
+.information-area-images {
+    justify-content: flex-end;
 }
 
 .expert-photo img {

@@ -2,6 +2,7 @@
     height: 7vh;
     background-color: darkblue;
     color: white;
+    cursor: pointer;
 }
 
 .plane-logo {

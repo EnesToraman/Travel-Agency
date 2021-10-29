@@ -86,6 +86,7 @@ const TourFilter = () => {
                                     inputFormat="dd/MM/yyyy"
                                     value={endDate}
                                     onChange={handleEndDate}
+                                    minDate={new Date(startDate)}
                                     renderInput={(params) => <TextField {...params} />}
                                 />
                             </Stack>
