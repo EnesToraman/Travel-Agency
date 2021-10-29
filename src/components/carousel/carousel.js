@@ -24,7 +24,7 @@ const CityCarousel = () => {
                     </Grid>
                     <Grid lg={6} className="carousel-area-information">
                         <ul>
-                            <li>Over 60 cities across 6 continents</li>
+                            <li>Over 120 cities across 6 continents</li>
                             <li>The world's cultural and historical capitals</li>
                             <li>Skip the line and off-hours access to popular sites</li>
                             <li>Variety of tour durations, from half-day to 7-day plus</li>
