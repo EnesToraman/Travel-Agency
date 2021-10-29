@@ -1,0 +1,55 @@
+.footer-area {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.footer-area li {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 2vh;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-col-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.newsletter-area {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.newsletter-information {
+    margin-top: 2vh;
+    font-size: 15px;
+    text-align: left;
+}
+
+.email-box-grid {
+    text-align: left;
+    margin-top: 4vh;
+}
+
+.email-box {
+    border: solid 1px #E8E4E1;
+    height: 48px;
+    background-color: #E8E4E140;
+    width: 65%;
+}
+
+.email-box::placeholder{
+    padding-left: 17px;
+    font-size: 12px;
+}
+
+.email-box-grid button {
+    height: 52px;
+    background-color: #013D48;
+    width: 30%;
+    color: white;
+    font-weight: bold;
+}

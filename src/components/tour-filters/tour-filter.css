@@ -52,7 +52,7 @@
     padding: 0 20px;
 }
 
-button {
+.filter-element-picker button {
     border: none;
     background-color: inherit;
 }

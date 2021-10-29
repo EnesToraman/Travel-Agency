@@ -7,6 +7,7 @@ import TourFilter from './components/tour-filters/tour-filter';
 import TourOptionInformation from './components/tour-option-information/tour-option-information';
 import { useEffect } from 'react';
 import StatisticCards from './components/statistic-cards/statistic-cards';
+import Footer from './components/footer/footer';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <ExpertInformation />
         <TourOptionInformation />
         <CityCarousel />
+        <Footer />
       </div>
   );
 }
