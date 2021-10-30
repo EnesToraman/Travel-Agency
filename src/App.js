@@ -10,11 +10,6 @@ import StatisticCards from './components/statistic-cards/statistic-cards';
 import Footer from './components/footer/footer';
 
 function App() {
-
-  useEffect(() => {
-    document.title = "Sneety Agency"
- }, []);
-
   return (
       <div className="App">
         <Topbar />
